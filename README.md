@@ -15,8 +15,8 @@ Before you begin, ensure you have the following:
 - ADOT: Acts as a Metric Scraper, Pulling Data from Various Sources and Forwarding it to Victoria Metrics using Prometheus Remote Write.
     
 - Victoria Metrics: Comprises three core components:
-  - Select: Performs Incoming Queries by fetching the needed Data from all the Configured vmstorage Nodes
-  - Insert: Accepts the Ingested Data and Spreads it among vmstorage Nodes according to consistent hashing over the metric name and all its labels
+  - Select: Performs Incoming Queries by fetching the needed Data from all the Configured ```vmstorage``` Nodes
+  - Insert: Accepts the Ingested Data and Spreads it among ```vmstorage``` Nodes according to consistent hashing over the metric name and all its labels
   - Storage: Stores the Raw Data and returns the Queried data on the given time range for the given label filters
   
 - Grafana: Provides a user-friendly interface for visualizing and analyzing metrics stored in Victoria Metrics
@@ -33,6 +33,9 @@ When choosing a metrics storage solution, Victoria Metrics stands out for the fo
 - Community Support: Victoria Metrics has an active community, ensuring ongoing development, support, and improvement.
 
 When compared to alternatives like Cortex, Thanos, or Mimir, Victoria Metrics stands out in terms of simplicity, performance, and cost-effectiveness. Choose Victoria Metrics for a robust and efficient centralized metrics aggregation solution.
+
+## Result
+<img width="1909" alt="Screenshot 2024-02-12 164634" src="https://github.com/mdnfr0211/eks-metrics-observability/assets/55761300/07c65065-8a24-4172-9076-f8761d532461">
 
 ## Additional Notes
 
